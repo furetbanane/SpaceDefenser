@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3beea1dc65ea35d40b10d6469c3ce444, type: 3}
+  m_Name: SceneConfiguration
+  m_EditorClassIdentifier: 
+  baseSceneObjects:
+  - {fileID: 1671470691120601302, guid: 5cddd117c336ac7448ca86001aef4cab, type: 3}
+  - {fileID: 1331519259470533989, guid: 0845ee864869ce04aace5df6b305bad2, type: 3}
+  - {fileID: 7076375883327615062, guid: dd0072d8a1dc44e43b6dc2c205f97388, type: 3}
+  - {fileID: 2898239426863099724, guid: ff84bd976122c954ea953187a10e8636, type: 3}
+  - {fileID: 3986186465089307057, guid: 3edd47e78e56d83489be988739285967, type: 3}
+  - {fileID: 3818327366400233202, guid: c588c19227602a14bacf305d4f24e778, type: 3}
+  - {fileID: 1992360801663389912, guid: d858e25136a8a05468349ff56a4b0c7c, type: 3}
+  - {fileID: 7744314690729272803, guid: e22d41d4123bb6449a544d2cb0b7cd6b, type: 3}
