@@ -10,6 +10,7 @@ public class Health : MonoBehaviour
     [SerializeField] private UnityEvent healthReachedMin;
 
     private int _health;
+    public int Value => _health;
 
     private void Awake()
     {

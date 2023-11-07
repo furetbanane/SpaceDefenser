@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class DamageEnemie : MonoBehaviour
 {
-    [SerializeField] private int attackForce = 1;
-
-    gameObject.AddComponent<BoxCollider2D>();
-
-    void OnCollisionEnter2D(Collision2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        health.Decrease(attackForce);
+        Health health = col.gameObject.GetComponent<Health>();
+
+        if(health != null)
+        {
+            health.Decrease(health.Value);
+            Destroy(gameObject);
+        }
     }
 }
