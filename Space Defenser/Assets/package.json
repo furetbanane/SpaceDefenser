@@ -1,0 +1,26 @@
+{
+    "name": "ca.studioxp.platformer",
+	"displayName": "Studio XP : Platformer",
+	"version": "0.1.0",
+    "unity": "2021.1",
+    "unityRelease": "16f1",
+    "description": "Package pour le cours Platformer de Studio XP",
+    "hideInEditor": false,
+    "dependencies": {
+        "com.unity.2d.animation": "6.0.5",
+		"com.unity.2d.common": "5.0.0",
+		"com.unity.2d.path": "5.0.0",
+		"com.unity.2d.pixel-perfect": "5.0.1",
+		"com.unity.2d.sprite": "1.0.0",
+		"com.unity.2d.spriteshape": "6.0.1",
+		"com.unity.2d.tilemap": "1.0.0",
+		"com.unity.2d.tilemap.extras": "2.0.0",
+		"com.unity.visualscripting": "1.6.1"
+    },
+	"author": {
+		"name": "Studio XP",
+		"email": "info@studioxp.ca",
+		"url": "https://www.studioxp.online"
+	}
+}
+
