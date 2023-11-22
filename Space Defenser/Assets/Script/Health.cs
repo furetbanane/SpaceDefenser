@@ -22,7 +22,7 @@ public class Health : MonoBehaviour
         _health -= damage;
         healthDecreased.Invoke();
 
-        if(_health == 0)
+        if(_health <= 0)
             healthReachedMin.Invoke();
     }
 }
