@@ -10,6 +10,7 @@ public class Health : MonoBehaviour
     [SerializeField] private UnityEvent healthReachedMin;
 
     private int _health;
+    public int Value => _health;
 
     private void Awake()
     {
@@ -21,7 +22,7 @@ public class Health : MonoBehaviour
         _health -= damage;
         healthDecreased.Invoke();
 
-        if(_health == 0)
+        if(_health <= 0)
             healthReachedMin.Invoke();
     }
 }

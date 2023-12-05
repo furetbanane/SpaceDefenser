@@ -15,7 +15,7 @@ namespace StudioXP.Scripts.Components.Movements.Characters
     {
         [LabelText("Vitesse")]
         [SerializeField] private float speed = 5;
-        [SerializeField] private List<GameObject> points;
+        [SerializeField] private List<Vector3> points;
         [SerializeField] private float distancePoint = 0.01f;
         [SerializeField] private UnityEvent reachedEnd;
         // N'oublie pas de programmer la méthode SetSpeed(float speed) pour pouvoir changer cette valeur.
@@ -31,7 +31,7 @@ namespace StudioXP.Scripts.Components.Movements.Characters
         void Update()
         {
            var point = points[position];
-           var distance = Vector3.Distance(transform.position, point.transform.position);
+           var distance = Vector3.Distance(transform.position, point);
            if (distance <= distancePoint)
            {
                position ++;
@@ -46,7 +46,7 @@ namespace StudioXP.Scripts.Components.Movements.Characters
                return;
            }
 
-           var direction = point.transform.position - transform.position;
+           var direction = point - transform.position;
            direction.Normalize();
 
            _rigidbody.MovePosition(transform.position + direction * speed * Time.deltaTime);
