@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 046c5f32ebffbf84894a2dc8bd43d567, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 50
+  maxHealth: 5
   healthDecreased:
     m_PersistentCalls:
       m_Calls: []
@@ -570,6 +570,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1449550894 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4297885486797917723, guid: 6790eb6fae4cf7f42a44baefc1b1fb56, type: 3}
+  m_PrefabInstance: {fileID: 1965071587}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1449550903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449550894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c5d45961259c343830954c3008eed4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1585021350
 GameObject:
   m_ObjectHideFlags: 0
