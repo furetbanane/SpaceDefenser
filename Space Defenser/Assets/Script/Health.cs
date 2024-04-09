@@ -23,7 +23,7 @@ public class Health : MonoBehaviour
         healthDecreased.Invoke();
 
         if(_health <= 0)
-            EnemySpawner.onEnemyDestroy.Invoke();
+            //EnemySpawner.onEnemyDestroy.Invoke();
             healthReachedMin.Invoke();
     }
 }

@@ -37,7 +37,6 @@ namespace StudioXP.Scripts.Components.Movements.Characters
                position ++;
                if (position == points.Count)
                {
-                   EnemySpawner.onEnemyDestroy.Invoke();
                    reachedEnd.Invoke();
                }
            }
